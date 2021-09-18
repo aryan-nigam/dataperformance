@@ -135,7 +135,7 @@ public class NearbyWords implements SpellingSuggest {
 	 * @param numSuggestions is the maximum number of suggestions to return 
 	 * @return the list of spelling suggestions
 	 */
-	@Override
+	/*@Override
 	public List<String> suggestions(String word, int numSuggestions) {
 
 		// initial variables
@@ -175,7 +175,7 @@ public class NearbyWords implements SpellingSuggest {
 		// return the list of real words
 		return retList;
 
-	}	
+	}	*/
 
    public static void main(String[] args) {
 	   // basic testing code to get started

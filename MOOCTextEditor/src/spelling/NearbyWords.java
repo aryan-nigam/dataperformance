@@ -13,7 +13,7 @@ import java.util.List;
  * @author UC San Diego Intermediate MOOC team
  *
  */
-public class DictionaryHashSet implements Dictionary 
+/*public class DictionaryHashSet implements Dictionary 
 {
 
     private HashSet<String> words;
@@ -47,7 +47,7 @@ public class DictionaryHashSet implements Dictionary
 	}
 	
    
-}
+}*/
 public class NearbyWords implements SpellingSuggest {
 	// THRESHOLD to determine how many words to look through when looking
 	// for spelling suggestions (stops prohibitively long searching)
@@ -216,8 +216,8 @@ public class NearbyWords implements SpellingSuggest {
 	   // basic testing code to get started
 	   String word = "i";
 	   // Pass NearbyWords any Dictionary implementation you prefer
-//	   Dictionary d = new DictionaryHashSet();
-	   Dictionary d = new DictionaryHashSetMatchCase();
+	   Dictionary d = new DictionaryHashSet();
+	  // Dictionary d = new DictionaryHashSetMatchCase();
 	   DictionaryLoader.loadDictionary(d, "data/dict.txt");
 	   NearbyWords w = new NearbyWords(d);
 	   List<String> l = w.distanceOne(word, true);

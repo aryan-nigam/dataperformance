@@ -189,7 +189,7 @@ public class NearbyWords implements SpellingSuggest {
 	   System.out.println("One away word Strings for for \""+word+"\" are:");
 	   System.out.println(l+"\n");
 
-	   word = "tailo";
+	   /*word = "tailo";
 	   List<String> suggest = w.suggestions(word, 10);
 	   System.out.println("Spelling Suggestions for \""+word+"\" are:");
 	   System.out.println(suggest);
@@ -197,7 +197,7 @@ public class NearbyWords implements SpellingSuggest {
 	   word = "kangaro";
 	   suggest = w.suggestions(word, 10);
 	   System.out.println("Spelling Suggestions for \""+word+"\" are:");
-	   System.out.println(suggest);
+	   System.out.println(suggest);*/
    }
 
 }
